@@ -31,7 +31,7 @@
     min-height: 40px;
     padding: 14px 100px;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 20px;
     margin-left: 1%;
     color: #35424a;
@@ -43,7 +43,7 @@
   .grid-items {
     padding: 14px 40px;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-decoration: none;
     margin-left: 10px;
     background: linear-gradient(#fc575e, #f7b42c);
@@ -73,7 +73,7 @@
     padding-top: 30px;
     font-size: 16px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     border-bottom: 3px solid #35424a;
   }
 
@@ -81,7 +81,7 @@
     min-height: 40px;
     padding: 14px 50px;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 20px;
     margin-left: 1%;
     color: #35424a;
@@ -93,7 +93,8 @@
   .grid-items {
     padding: 14px 40px;
     font-size: 20px;
-    margin-bottom: 20px;
+    width: 70px;
+    margin-bottom: 10px;
     text-decoration: none;
     margin-left: 10px;
     background: linear-gradient(#fc575e, #f7b42c);
@@ -123,15 +124,15 @@
     padding-top: 30px;
     font-size: 16px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto;
     border-bottom: 3px solid #35424a;
   }
 
   #output {
     min-height: 40px;
-    padding: 14px 45px;
+    padding: 14px 35px;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 20px;
     margin-left: 1%;
     color: #35424a;
@@ -141,15 +142,16 @@
     font-family: sans-serif;
   }
   .grid-items {
-    padding: 14px 10px;
+    padding: 6px 6px;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-decoration: none;
     margin-left: 10px;
     background: linear-gradient(#fc575e, #f7b42c);
     color: #fff;
     border-radius: 10%;
     border: 3px solid #fc575e;
+    width: 70px;
     font-family: "Dancing Script", cursive;
   }
 }

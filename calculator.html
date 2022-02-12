@@ -15,6 +15,10 @@
     <h1>Calculator</h1>
     <input type="text" placeholder="0" id="output" />
     <div id="grid-container">
+      <button class="grid-items" onclick="Result()">=</button>
+        <button class="grid-items" onclick="Del()">DEL</button>
+        <button class="grid-items" onclick="show('+')">+</button>
+        <button class="grid-items" onclick="show('-')">-</button>
       <button class="grid-items" onclick="show('1')">1</button>
       <button class="grid-items" onclick="show('2')">2</button>
       <button class="grid-items" onclick="show('3')">3</button>
@@ -25,13 +29,9 @@
       <button class="grid-items" onclick="show('8')">8</button>
       <button class="grid-items" onclick="show('9')">9</button>
       <button class="grid-items" onclick="show('0')">0</button>
-      <button class="grid-items" onclick="show('+')">+</button>
-      <button class="grid-items" onclick="show('-')">-</button>
-        <button class="grid-items" onclick="show('*')">*</button>
-        <button class="grid-items" onclick="show('/')">/</button>
+      <button class="grid-items" onclick="show('/')">/</button>
         <button class="grid-items" onclick="show('%')">%</button>
-        <button class="grid-items" onclick="Result()">=</button>
-        <button class="grid-items" onclick="Del()">DEL</button>
+        <button class="grid-items" onclick="show('*')">*</button>
     <script defer src="style.js"></script>
   </body>
 </html>
