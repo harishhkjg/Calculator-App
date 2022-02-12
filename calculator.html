@@ -11,28 +11,26 @@
     />
   </header>
   <body>
+    <h1>Calculator</h1>
+    <input type="text" placeholder="0" id="output" />
     <div id="grid-container">
-      <h1>Calculator</h1>
-
-      <input type="text" placeholder="0" id="output" /><br />
-      <button id="one" onclick="show('1')">1</button>
-      <button id="two" onclick="show('2')">2</button>
-      <button id="three" onclick="show('3')">3</button>
-      <button id="four" onclick="show('4')">4</button><br />
-      <button id="five" onclick="show('5')">5</button>
-      <button id="six" onclick="show('6')">6</button>
-      <button id="seven" onclick="show('7')">7</button>
-      <button id="eight" onclick="show('8')">8</button><br />
-      <button id="nine" onclick="show('9')">9</button>
-      <button id="zero" onclick="show('0')">0</button>
-      <button id="add" onclick="show('+')">+</button>
-      <button id="min" onclick="show('-')">-</button><br />
-      <button id="mul" onclick="show('*')">*</button>
-      <button id="quo" onclick="show('/')">/</button>
-      <button id="mod" onclick="show('%')">%</button>
-      <button id="equal" onclick="Result()">=</button><br />
-      <button id="del" onclick="Del()">DEL</button>
-    </div>
+      <button class="grid-items" onclick="show('1')">1</button>
+      <button class="grid-items" onclick="show('2')">2</button>
+      <button class="grid-items" onclick="show('3')">3</button>
+      <button class="grid-items" onclick="show('4')">4</button>
+      <button class="grid-items" onclick="show('5')">5</button>
+      <button class="grid-items" onclick="show('6')">6</button>
+      <button class="grid-items" onclick="show('7')">7</button>
+      <button class="grid-items" onclick="show('8')">8</button>
+      <button class="grid-items" onclick="show('9')">9</button>
+      <button class="grid-items" onclick="show('0')">0</button>
+      <button class="grid-items" onclick="show('+')">+</button>
+      <button class="grid-items" onclick="show('-')">-</button>
+        <button class="grid-items" onclick="show('*')">*</button>
+        <button class="grid-items" onclick="show('/')">/</button>
+        <button class="grid-items" onclick="show('%')">%</button>
+        <button class="grid-items" onclick="Result()">=</button>
+        <button class="grid-items" onclick="Del()">DEL</button>
     <script defer src="style.js"></script>
   </body>
 </html>
