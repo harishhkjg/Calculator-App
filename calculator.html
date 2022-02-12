@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="grid-container">
+      <h1>Calculator</h1>
+
+      <input type="text" placeholder="0" id="output" /><br />
+      <button id="one" onclick="show('1')">1</button>
+      <button id="two" onclick="show('2')">2</button>
+      <button id="three" onclick="show('3')">3</button>
+      <button id="four" onclick="show('4')">4</button><br />
+      <button id="five" onclick="show('5')">5</button>
+      <button id="six" onclick="show('6')">6</button>
+      <button id="seven" onclick="show('7')">7</button>
+      <button id="eight" onclick="show('8')">8</button><br />
+      <button id="nine" onclick="show('9')">9</button>
+      <button id="zero" onclick="show('0')">0</button>
+      <button id="add" onclick="show('+')">+</button>
+      <button id="min" onclick="show('-')">-</button><br />
+      <button id="mul" onclick="show('*')">*</button>
+      <button id="quo" onclick="show('/')">/</button>
+      <button id="mod" onclick="show('%')">%</button>
+      <button id="equal" onclick="Result()">=</button><br />
+      <button id="del" onclick="Del()">DEL</button>
+    </div>
+    <script defer src="style.js"></script>
+  </body>
+</html>
